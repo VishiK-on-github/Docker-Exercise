@@ -1,0 +1,24 @@
+Images and Containers:
+
+Images: blueprint for container
+
+1. runtime env
+2. application code
+3. extra configs (e.g. env variables)
+4. commands to run code
+
+Images are READ-ONLY
+
+Container:
+
+1. running instance of an image
+2. runs our application
+3. Isolated process
+
+
+Docker Images:
+
+1. parent images
+2. source code
+3. dependencies
+4. run commands
