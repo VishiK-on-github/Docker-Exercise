@@ -13,7 +13,7 @@ Container:
 
 1. running instance of an image
 2. runs our application
-3. Isolated process
+3. isolated process
 
 
 Docker Images:
@@ -22,3 +22,9 @@ Docker Images:
 2. source code
 3. dependencies
 4. run commands
+
+command to run docker with port and remove image after stopping container:
+docker run --name app2_c -p 4000:4000 --rm app2:nodemon
+docker run --name <container-name> -p <port-outside-container>:<port-inside-container> --rm <image-name>:<image-tag>
+
+command to run docker with port mapping and describe volume:
